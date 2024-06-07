@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="bam-ui">
+  <head>
+    <meta name="bam-ui-insertion-point" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drop-in screen</title>
+  </head>
+  <body>
+    <div class="bam-container" data-spacing="none">
+      <div class="bam-header">
+        <div class="bam-container" data-spacing="x-small">
+          <div class="bam-headline1">Welcome</div>
+        </div>
+      </div>
+
+
+        <div class="bam-container" data-variant="card">
+          <div class="bam-container" data-spacing="x-small">
+            <div class="bam-container" data-layout="row" data-spacing="small">
+              <i data-variant="calendar"></i>
+              <p class="bam-body-bold">Digital Clienteling</p>
+            </div>
+            <p class="bam-body">
+              Talk to a Video Commerce expert.
+            </p>
+            <video class="video-2" autoplay loop muted playsinline>
+              <source src="https://bambuser.com/webflow/adobe-woman800x800.mp4" type="video/mp4">
+              Your browser does not support HTML5 videos.
+          </video>
+          </div>
+          <button id="makeAppointment" data-size="large-wide">
+            Book a video call
+          </button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./dropInScreen.js"></script>
+  </body>
+</html>
